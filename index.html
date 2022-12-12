@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            width: 100%;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+        }
+        .container div{
+            width: 50%;
+        }
+        .container img{
+            height: 100vh;
+            object-fit: cover;
+        }
+        #card_l img{
+            object-position: right;
+        }
+        #card_r img{
+            object-position: top;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="card_l">
+            <img src="imatges/DP332001.jpeg" alt="left">
+        </div>
+        <div id="card_r">
+            <img src="imatges/DPB874349.jpeg" alt="right">
+        </div>
+    </div>
+</body>
+</html>
